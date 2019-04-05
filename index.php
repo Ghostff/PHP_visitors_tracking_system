@@ -5,7 +5,7 @@ include 'src/Stalk.php';
 # bad IP
 $stalk = new Stalk(function ($error) {
     var_dump($error);
-}, '88.163.1sd83.16');
+}, '88.163.183.16');
 
 
 $stalk = new Stalk(function ($error) {
